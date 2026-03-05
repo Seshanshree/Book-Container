@@ -1,0 +1,1 @@
+Developed a " BooksKey " Book Management Web Application that allows users to add, display, and delete book entries with titles, authors, and descriptions. Implemented dynamic DOM manipulation, popup forms, and responsive UI using HTML, CSS, and JavaScript.
