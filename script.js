@@ -23,7 +23,7 @@ addbook.addEventListener("click",function(event){
     div.innerHTML=`<h2>${bookinput.value}</h2>
     <h5>${bookauthor.value}</h5>
     <p>${bookdesinput.value}</p>
-    <button>Delete</button>`
+    <button onclick="deletebook(event)">Delete</button>`
     container.append(div)
     popoverlay.style.display="none"
     popupbox.style.display="none"
@@ -31,4 +31,5 @@ addbook.addEventListener("click",function(event){
 
 function deletebook(event){
     event.target.parentElement.remove()
+
 }
