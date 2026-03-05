@@ -104,3 +104,38 @@ body{
 .popupbox textarea:focus{
     outline: none;
 }
+
+@media screen and (max-width: 600px) {
+
+    .bookcontainer{
+        width: 90%;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .popupbox{
+        width: 85%;
+        left: 4%;
+        top: 15%;
+        padding: 20px;
+    }
+
+    .addbtn{
+        font-size: 30px;
+        padding: 8px 16px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .navbar h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    #bookinput, #bookauthor, #bookdesinput{
+        width: 90%;
+    }
+
+    .container{
+        padding: 5px;
+    }
+}
