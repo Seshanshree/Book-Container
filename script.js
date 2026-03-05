@@ -31,5 +31,10 @@ addbook.addEventListener("click",function(event){
 
 function deletebook(event){
     event.target.parentElement.remove()
+    
+var books = JSON.parse(localStorage.getItem("books")) || []
+    books = books.filter(book => book.title !== title)
+    localStorage.setItem("books",JSON.stringify(books))
+
 
 }
